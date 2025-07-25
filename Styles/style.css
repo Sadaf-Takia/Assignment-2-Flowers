@@ -220,3 +220,10 @@ button {
 .card-heading{
     text-align: center;
 }
+.store{
+    display: flex;
+gap:20px
+}
+.list-text{
+    font-size: 1.37rem;
+}
