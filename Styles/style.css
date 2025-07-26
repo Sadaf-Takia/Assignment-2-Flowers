@@ -9,6 +9,8 @@
     font-style: normal;
 }
 
+
+
 .noto-serif-noto {
     font-family: "Noto Serif", serif;
     font-optical-sizing: auto;
@@ -16,6 +18,23 @@
     font-style: normal;
     font-variation-settings:
         "wdth" 100;
+}
+
+.noto {
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 1.2rem;
+
+}
+
+.noto2 {
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+
+.field a {
+    color: #ffffff;
 }
 
 .inter-inter {
@@ -77,6 +96,7 @@
 .card,
 .container,
 .container2,
+.field, .footer-end,
 .banner {
     max-width: 1440px;
     margin: 0 auto;
@@ -134,9 +154,9 @@
 .container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-   
 
-row-gap: 20px;
+
+    row-gap: 20px;
     column-gap: 20px;
 
 
@@ -145,15 +165,8 @@ row-gap: 20px;
 
 
 
-button {
-    align-items: center;
-    background-color: rgba(233, 90, 8, 1);
-    padding: 5%;
-    width: 100%;
-    color: #ffffff;
-    font-size: 1.5rem;
 
-}
+
 
 
 .flower-content {
@@ -178,8 +191,8 @@ button {
     }
 
     .flower {
-       
-     max-height: 484.94px;
+
+        max-height: 484.94px;
     }
 
 
@@ -217,13 +230,212 @@ button {
     }
 
 }
-.card-heading{
+
+.card-heading {
     text-align: center;
 }
-.store{
+
+.store {
     display: flex;
-gap:20px
+    gap: 30px;
+    margin-top: 230px;
+    align-items: center;
+
 }
-.list-text{
+
+.store img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.list-text {
     font-size: 1.37rem;
+}
+
+.list-h1 {
+    font-size: 4.5rem;
+}
+
+.store-list {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+
+}
+
+.flower-store {
+    margin-top: 38px;
+    margin-bottom: 38px;
+
+    padding-left: 5%;
+
+}
+
+.badge {
+    position: relative;
+    width: 20%;
+
+    margin-left: -180px;
+    margin-top: -590px;
+}
+
+.blom {
+    background-image: url(../Images/deal-bloom.png);
+    background-repeat: no-repeat;
+    height: 50%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.591);
+    border-radius: 5%;
+    background-size: cover;
+}
+
+.ana {
+    background-image: url(../Images/deal-ana.png);
+    background-repeat: no-repeat;
+    height: 50%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.625);
+    border-radius: 5%;
+    background-size: cover;
+}
+
+.bg-color {
+
+    height: 100%;
+    width: 100%;
+    margin-top: -25px;
+    border-radius: 5%;
+    background-color: rgba(0, 0, 0, 0.399);
+    background-size: cover;
+
+}
+
+.bg-color h1 {
+    padding-top: 15%;
+}
+
+.bg-color2 h1 {
+    padding-top: 15%;
+}
+
+.bg-color2 {
+    height: 100%;
+    width: 100%;
+    margin-top: -45px;
+    border-radius: 5%;
+    background-color: rgba(0, 0, 0, 0.399);
+    background-size: cover;
+}
+
+.zabo {
+    background-image: url(../Images/deal-zabo.png);
+    background-repeat: no-repeat;
+    height: 423px;
+
+
+    border-radius: 5%;
+    text-align: center;
+
+    width: 100%;
+    background-size: cover;
+}
+
+.field {
+    margin-top: 120px;
+    display: grid;
+    grid-template-columns: 1fr 1.8fr;
+
+
+    gap: 20px;
+}
+
+.bloan {
+    display: flex;
+    gap: 20px;
+
+    text-align: center;
+    flex-direction: column;
+    max-height: 423px;
+}
+
+footer {
+    margin-top: 120px;
+}
+
+.subscribe {
+
+    background-image: url(../Images/news-letter-bg.png);
+    background-repeat: no-repeat;
+
+
+    max-width: 1440px;
+   
+
+    padding: 10%;
+    text-align: center;
+
+
+    background-size: cover;
+}
+
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+
+
+.bunch {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.email {}
+
+.inputbtn {
+width: 830px;
+
+display: flex;
+
+
+
+}
+input[type="email"] {
+   
+        font-size: .89rem;
+
+        border:solid olivedrab 2px;
+        border-radius:4%;
+       padding-left: 2%;
+width: 70%;
+}
+
+button{
+  
+    text-align: center;
+        font-size: .89rem;
+      background-color: #f25c05;
+     padding: 2%;
+       width: 30%;
+        color: white;
+        border-radius: 5%;
+        cursor: pointer;
+}
+.nav-foot a{
+    text-decoration: none;
+}
+.footer-end{
+    display: flex;
+    gap: 20%;
+    background-color: rgb(183, 182, 209);
+}
+
+.nav-foot{
+    display: flex;
+    flex-direction: column;
 }
