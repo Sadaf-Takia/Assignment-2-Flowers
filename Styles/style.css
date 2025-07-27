@@ -309,7 +309,7 @@ button:hover {
 }
 
 .list-h1 {
-    font-size: 4.5rem;
+    font-size: 4rem;
 }
 
 .store-list {
@@ -335,6 +335,13 @@ button:hover {
         margin-top: 100%;
 
 
+    }
+    
+    .list-h1{
+        align-items: start;
+        font-size: 2rem;
+       
+        
     }
 
     .hidden {
@@ -626,7 +633,7 @@ button {
 
     .bunch h1 {
         text-align: center;
-        font-size: 0.6rem;
+        font-size: 1rem;
     }
 
    
