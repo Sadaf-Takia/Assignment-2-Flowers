@@ -159,7 +159,7 @@ color: rgba(137, 135, 161, 1);
 
     color: rgba(0, 0, 0, 0.5);
     font-weight: 400;
-    font-size: 1.5rem;
+    font-size: 0.85rem;
 
 }
 
@@ -220,7 +220,7 @@ button:hover {
 }
 
 /*small device*/
-@media screen and (max-width:576px) {
+@media screen and (max-width:768px) {
     .container {
         grid-template-columns: repeat(2, 1fr);
     }
@@ -257,7 +257,7 @@ button:hover {
 
 
 /*mobile*/
-@media screen and (max-width:576px) {
+@media screen and (max-width:768px) {
     .nav-phone {
         display: none;
     }
@@ -275,7 +275,9 @@ button:hover {
     .cart-font{
         font-size: .5rem;
     }
-
+.nav-items{
+    margin: 0px;
+}
     .cart {
         max-width: 5%;
         margin-right: 10px;
@@ -321,7 +323,7 @@ button:hover {
 
 }
 
-@media screen and (max-width:576px) {
+@media screen and (max-width:768px) {
     .store-phone {
         margin-top: 10%;
     }
@@ -415,10 +417,11 @@ button:hover {
 }
 
 .bg-color2 {
-    height: 100%;
+   
     width: 100%;
     margin-top: -45px;
     border-radius: 5%;
+    padding-bottom: 20%;
     background-color: rgba(0, 0, 0, 0.399);
     background-size: cover;
 }
@@ -426,8 +429,9 @@ button:hover {
 .zabo {
     background-image: url(../Images/deal-zabo.png);
     background-repeat: no-repeat;
-    height: 423px;
-
+    max-height: 100%;
+       
+  
     border-radius: 2%;
     text-align: center;
 
@@ -450,7 +454,7 @@ button:hover {
 
     text-align: center;
     flex-direction: column;
-    max-height: 423px;
+    max-height: 100%;
 }
 
 footer {
@@ -561,7 +565,7 @@ button {
     margin-top: 10%;
 }
 
-@media screen and (max-width:576px) {
+@media screen and (max-width:768px) {
     .field-phone {
         margin-top: 120px;
         display: grid;
@@ -583,19 +587,22 @@ button {
         background-size: cover;
     }
 
-    .bg-color2 {
-        height: 100%;
-        width: 100%;
-        align-items: center;
-        border-radius: 5%;
-        background-color: rgba(0, 0, 0, 0.399);
-        background-size: cover;
-    }
+        .bg-color2 {
+            margin-bottom: -20px;
+          
+            margin-top: -30px;
+            
+        }
 
     .bg-color2 h1 {
-        padding: 0%;
+       
+     
+        
     }
 
+    .bg-color2 a{
+        margin: 0%;
+    }
     .noto2 {
         color: #ffffff;
         font-weight: bold;
@@ -606,7 +613,7 @@ button {
 
 }
 
-@media screen and (max-width:576px) {
+@media screen and (max-width:768px) {
     .subscribe-phone {
         background-image: url(../Images/news-letter-bg.png);
         background-repeat: no-repeat;
@@ -674,7 +681,7 @@ button {
 
 }
 
-@media screen and (max-width:576px) {
+@media screen and (max-width:768px) {
 
         .main-foot{
             margin-top: 5%;
@@ -693,4 +700,19 @@ button {
         }
 
 
+}
+
+.list-text {
+    font-size: 0.8rem;
+}
+.flower-content button{
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+.flower-content p{
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+.bg-color, .blom,.ana{
+    padding-bottom: 6%;
 }
