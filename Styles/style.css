@@ -226,6 +226,10 @@ button:hover {
     }
 
 
+.banner-content h1{
+    align-items: start;
+    font-size: 1.7rem;
+}
     .banner-phone {
         flex-direction: column-reverse;
     }
