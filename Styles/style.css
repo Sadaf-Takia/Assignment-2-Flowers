@@ -268,11 +268,10 @@ button:hover {
         margin: 0 auto;
     }
 
-    .phone-logo {
-        opacity: 100%;
-        max-width: 63px;
-        max-height: 38px;
-    }
+   .navbar .logo {
+       height: 20%;
+       width: 20%;
+   }
     .cart-font{
         font-size: .70rem;
     }
