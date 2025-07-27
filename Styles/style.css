@@ -273,9 +273,12 @@ button:hover {
         max-width: 63px;
         max-height: 38px;
     }
+    .cart-font{
+        font-size: .70rem;
+    }
 
     .cart {
-        max-width: 4%;
+        max-width: 5%;
         margin-right: 10px;
     }
 
