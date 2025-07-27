@@ -279,7 +279,10 @@ button:hover {
         margin-right: 10px;
     }
 
-    
+    .nav-link {
+        align-items: center;
+      
+    }
 
 }
 
