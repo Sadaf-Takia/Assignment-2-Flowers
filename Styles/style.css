@@ -52,6 +52,9 @@
 .nav-color2 {
     color: rgba(137, 135, 161, 1);
 }
+.nav-foot a{
+color: rgba(137, 135, 161, 1);
+}
 
 .home {
     color: rgba(37, 36, 50, 1);
@@ -62,6 +65,16 @@
     color: rgba(0, 0, 0, 1);
     font-weight: 600;
 }
+
+.card-heading h1 {
+    font-size: 3rem;
+
+}
+
+.card-heading p {
+    font-size: 1.3rem;
+}
+
 
 .nav-link {
     text-decoration: none;
@@ -96,7 +109,8 @@
 .card,
 .container,
 .container2,
-.field, .footer-end,
+.field,
+.footer-end,
 .banner {
     max-width: 1440px;
     margin: 0 auto;
@@ -105,23 +119,31 @@
 /*  banner */
 .banner {
 
-    margin-top: 120px;
-    max-height: 461px;
+    justify-content: space-between;
+    margin-top: 3%;
+
 }
 
 .banner-content {
     max-width: 570px;
-    gap: 13px;
 
-    margin-top: 100px;
+    padding-top: 17%;
 }
 
-.banner img {
-
-    max-width: 90%;
-    max-height: 90%;
+.ban-img {
+    margin-left: 10%;
+    margin-top: 7%;
 
 }
+
+.ban-img img {
+
+    width: 100%;
+    height: 100%;
+
+}
+
+
 
 .orange {
     color: rgba(233, 90, 8, 1);
@@ -129,7 +151,7 @@
 
 .banner-content h1 {
     font-weight: bold;
-    font-size: 4rem;
+    font-size: 4.23rem;
 
 }
 
@@ -137,8 +159,8 @@
 
     color: rgba(0, 0, 0, 0.5);
     font-weight: 400;
-    font-size: 1.3rem;
-    padding-right: 20px;
+    font-size: 1.5rem;
+
 }
 
 .flex {
@@ -156,11 +178,24 @@
     grid-template-columns: repeat(4, 1fr);
 
 
-    row-gap: 20px;
-    column-gap: 20px;
+    row-gap: 5%;
+    column-gap: 3%;
 
 
 
+}
+
+.flower-content button {
+    width: 100%;
+    border: #f25c05;
+    border-radius: 7%;
+    font-size: 1.5rem;
+
+
+}
+
+button:hover {
+    background-color: rgb(109, 74, 56);
 }
 
 
@@ -171,7 +206,7 @@
 
 .flower-content {
     align-items: center;
-    gap: 0px;
+
     text-align: center;
     font-size: 1.5rem;
 
@@ -189,6 +224,22 @@
     .container {
         grid-template-columns: repeat(2, 1fr);
     }
+
+
+    .banner-phone {
+        flex-direction: column-reverse;
+    }
+
+    .ban-phn-img {
+        margin-top: 5%;
+    }
+
+    .ban-phn-img img {
+        max-height: 100%;
+        max-width: 100%;
+    }
+
+
 
     .flower {
 
@@ -238,7 +289,8 @@
 .store {
     display: flex;
     gap: 30px;
-    margin-top: 230px;
+
+    margin-top: 20%;
     align-items: center;
 
 }
@@ -263,6 +315,36 @@
 
 }
 
+@media screen and (max-width:576px) {
+    .store-phone {
+        margin-top: 10%;
+    }
+
+    .store-list-phone {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .badge2 {
+
+        margin-top: 100%;
+
+
+    }
+
+    .hidden {
+        display: none;
+    }
+
+    .store-main {
+        margin-top: 10%;
+        flex-direction: column;
+    }
+}
+
+
+
 .flower-store {
     margin-top: 38px;
     margin-bottom: 38px;
@@ -270,6 +352,7 @@
     padding-left: 5%;
 
 }
+
 
 .badge {
     position: relative;
@@ -332,8 +415,7 @@
     background-repeat: no-repeat;
     height: 423px;
 
-
-    border-radius: 5%;
+    border-radius: 2%;
     text-align: center;
 
     width: 100%;
@@ -367,9 +449,9 @@ footer {
     background-image: url(../Images/news-letter-bg.png);
     background-repeat: no-repeat;
 
-
+    margin: 0 auto;
     max-width: 1440px;
-   
+
 
     padding: 10%;
     text-align: center;
@@ -398,44 +480,204 @@ footer {
 .email {}
 
 .inputbtn {
-width: 830px;
+    width: 830px;
 
-display: flex;
+    display: flex;
 
 
 
 }
+
 input[type="email"] {
-   
-        font-size: .89rem;
 
-        border:solid olivedrab 2px;
-        border-radius:4%;
-       padding-left: 2%;
-width: 70%;
+    font-size: .89rem;
+
+    border: solid olivedrab 2px;
+    border-radius: 4%;
+    padding-left: 2%;
+    width: 70%;
 }
 
-button{
-  
+button {
+
     text-align: center;
+    font-size: .89rem;
+    background-color: #f25c05;
+    padding: 2%;
+    width: 30%;
+    color: white;
+    border-radius: 5%;
+    cursor: pointer;
+}
+
+.nav-foot a {
+    text-decoration: none;
+}
+
+.main-foot {
+    padding: 7%;
+
+}
+
+.footer-end {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    gap: 15%;
+
+}
+
+.nav-foot {}
+
+.nav-foot li {
+    list-style: none;
+}
+
+.icon {
+    display: flex;
+    gap: 20px;
+    max-width: 200px;
+}
+
+.icon img {
+    max-width: 20%;
+    max-height: 20%;
+}
+
+.deals {
+    margin-top: 10%;
+}
+
+@media screen and (max-width:576px) {
+    .field-phone {
+        margin-top: 120px;
+        display: grid;
+        grid-template-columns: 1fr;
+
+
+        gap: 20px;
+    }
+
+    .zabo2 {
+        background-image: url(../Images/deal-zabo.png);
+        background-repeat: no-repeat;
+        height: 100%;
+        width: 100%;
+        margin-top: 5%;
+        text-align: center;
+
+        border-radius: 5%;
+        background-size: cover;
+    }
+
+    .bg-color2 {
+        height: 100%;
+        width: 100%;
+        align-items: center;
+        border-radius: 5%;
+        background-color: rgba(0, 0, 0, 0.399);
+        background-size: cover;
+    }
+
+    .bg-color2 h1 {
+        padding: 0%;
+    }
+
+    .noto2 {
+        color: #ffffff;
+        font-weight: bold;
+        font-size: 1.5rem;
+    }
+
+
+
+}
+
+@media screen and (max-width:576px) {
+    .subscribe-phone {
+        background-image: url(../Images/news-letter-bg.png);
+        background-repeat: no-repeat;
+
+        margin: 0 auto;
+
+
+
+
+        text-align: center;
+
+
+        background-size: cover;
+    }
+
+    .footer-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+
+
+    }
+
+
+
+    .bunch h1 {
+        text-align: center;
+        font-size: 0.6rem;
+    }
+
+   
+
+    .inputbtn {
+        width: 70%;
+
+        display: flex;
+
+
+
+    }
+
+    input[type="email"] {
+
         font-size: .89rem;
-      background-color: #f25c05;
-     padding: 2%;
-       width: 30%;
+
+        border: solid olivedrab 2px;
+        border-radius: 4%;
+        padding-left: 2%;
+        width: 70%;
+    }
+
+    button {
+
+        text-align: center;
+        font-size: .70rem;
+        background-color: #f25c05;
+        padding: 2%;
+        width: 30%;
         color: white;
         border-radius: 5%;
         cursor: pointer;
-}
-.nav-foot a{
-    text-decoration: none;
-}
-.footer-end{
-    display: flex;
-    gap: 20%;
-    background-color: rgb(183, 182, 209);
+    }
+
+
 }
 
-.nav-foot{
-    display: flex;
-    flex-direction: column;
+@media screen and (max-width:576px) {
+
+        .main-foot{
+            margin-top: 5%;
+        }
+
+        .footer-end {
+           align-items: start;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            gap: 20%;
+    
+        }
+        .nav-foot{
+            margin-bottom: 10%;
+        }
+
+
 }
